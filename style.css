@@ -78,6 +78,27 @@ ul{
 }
 
 
+
+.contactbox{
+    width: 700px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    padding-top: 1px;
+    text-align: left;
+    margin: auto;
+    margin-top: 2%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+}
+.contactbox h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-bottom: 2%;
+}
+
+
+
 .projectandwriteup{
     width: 780px;
     margin: auto;
