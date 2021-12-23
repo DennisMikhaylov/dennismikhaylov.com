@@ -3,6 +3,10 @@ body{
     padding: 0;
     background: url(images/bg.jpg) no-repeat;
     background-size: cover;
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 a{
     text-decoration:none !important;
@@ -25,6 +29,7 @@ a{
 .navbar a:hover{
     background: #ddd;
     color: black;
+    transition: all 0.35s ease;
 }
 .navbar a.active{
     background: #04AA6D;
@@ -78,17 +83,78 @@ ul{
 }
 
 
-
-.contactbox{
+.skillsbox{
     width: 700px;
     background: rgba(0, 0, 0, 0.4);
     padding: 30px;
     padding-top: 1px;
     text-align: left;
-    margin: auto;
+    margin: 30px;
     margin-top: 2%;
     color: white;
     font-family: 'Century Gothic',sans-serif;
+}
+.skillsbox h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-bottom: 2%;
+}
+.experiencebox{
+    width: 700px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    padding-top: 1px;
+    text-align: left;
+    margin: 30px;
+    margin-top: 2%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+}
+.experiencebox h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-bottom: 2%;
+}
+.certsbox{
+    width: 700px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    padding-top: 1px;
+    text-align: left;
+    margin: 30px;
+    margin-top: 2%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+}
+.certsbox badge:hover{
+    filter: brightness(70%);
+    transition: all 0.35s ease;
+}
+.certsbox h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-bottom: 2%;
+}
+
+
+.contactbox{
+    width: fit-content;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    padding-top: 1px;
+    text-align: left;
+    margin: 30px;
+    margin-top: 2%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+}
+.contactbox:hover{
+    background: #ddd;
+    color: black;
+    transition: all 0.35s ease;
 }
 .contactbox h1{
     font-size: 40px;
@@ -118,6 +184,7 @@ ul{
 .projectbox:hover{
     background: #ddd;
     color: black;
+    transition: all 0.35s ease;
 }
 .projectbox h1{
     font-size: 40px;
@@ -139,4 +206,5 @@ ul{
 .writeupbox:hover{
     background: #ddd;
     color: black;
+    transition: all 0.35s ease;
 }
