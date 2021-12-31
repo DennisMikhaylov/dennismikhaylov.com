@@ -14,6 +14,22 @@ a{
 
 
 
+.animate-in {
+    -webkit-animation: fadeIn .2s ease-in;
+    animation: fadeIn .2s ease-in;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
 .navbar{
     overflow: hidden;
     background: rgba(0, 0, 0, 0.4);
