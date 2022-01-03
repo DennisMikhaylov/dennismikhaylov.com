@@ -141,6 +141,19 @@ ul{
     font-weight: 100;
     margin-bottom: 2%;
 }
+.experiencebox h2{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 10;
+    margin: 1%;
+    margin-left: 0;
+}
+.experiencebox h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 10;
+    margin: 1%;
+}
 .certsbox{
     width: 700px;
     background: rgba(0, 0, 0, 0.4);
