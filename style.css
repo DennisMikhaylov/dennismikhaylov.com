@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(images/bg.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(images/bg.jpg) no-repeat;
     background-size: cover;
     min-height: 100%;
 
@@ -124,9 +124,34 @@ ul{
     margin: 1%;
     margin-left: 0;
 }
+.educationbox{
+    width: 840px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    padding-top: 1px;
+    text-align: left;
+    margin: 30px;
+    margin-top: 2%;
+    padding-bottom: 15px;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+}
+.educationbox h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-bottom: 2%;
+}
+.educationbox h2{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 10;
+    margin: 1%;
+    margin-left: 0;
+}
 .experiencebox{
-    width: 700px;
-    background: rgba(0, 0, 0, 0.4);
+    width: 840px;
+    background: rgba(0, 0, 0, 0.8);
     padding: 30px;
     padding-top: 1px;
     text-align: left;
@@ -154,6 +179,14 @@ ul{
     letter-spacing: 1px;
     font-weight: 10;
     margin: 1%;
+    margin-bottom: 1%;
+}
+.experiencebox h4{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 10;
+    margin: 1%;
+    margin-top: 0;
 }
 .certsbox{
     width: 700px;
