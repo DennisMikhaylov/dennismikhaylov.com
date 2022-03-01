@@ -4,9 +4,13 @@ body{
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(images/bg.jpg) no-repeat;
     background-size: cover;
     min-height: 100%;
-
+    overflow: scroll;
+    overflow-x: hidden;
     background-attachment: fixed;
     background-position: center;
+}
+::-webkit-scrollbar {
+    width: 0;
 }
 a{
     text-decoration:none !important;
