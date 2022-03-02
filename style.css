@@ -40,7 +40,7 @@ a{
 
 .navbar{
     overflow: hidden;
-    background: rgba(0, 0, 0, 1);
+    background: rgba(16, 16, 16, 1);
     font-family: 'Century Gothic',sans-serif;
     position: sticky;
     top: 0;
