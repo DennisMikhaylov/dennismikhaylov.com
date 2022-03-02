@@ -22,6 +22,10 @@ a{
     -webkit-animation: fadeIn .2s ease-in;
     animation: fadeIn .2s ease-in;
 }
+.animate-in-error {
+    -webkit-animation: fadeIn 1.5s ease-in;
+    animation: fadeIn 1.5s ease-in;
+}
 
 @-webkit-keyframes fadeIn {
     from { opacity: 0; }
@@ -61,6 +65,21 @@ a{
 
 
 
+.errorbox{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+}
+.errorbox:hover{
+    background: #ddd;
+    color: black;
+    transition: all 0.35s ease;
+}
 .homebox{
     width: 450px;
     background: rgba(0, 0, 0, 0.4);
