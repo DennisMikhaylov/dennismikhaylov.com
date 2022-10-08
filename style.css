@@ -152,7 +152,7 @@ ul{
 }
 .educationbox{
     width: 840px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.4);
     padding: 30px;
     padding-top: 1px;
     text-align: left;
@@ -177,7 +177,7 @@ ul{
 }
 .experiencebox{
     width: 840px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.4);
     padding: 30px;
     padding-top: 1px;
     text-align: left;
